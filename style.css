@@ -8,9 +8,11 @@ body {
   font-size: 20px;
   color: black;
   max-height: 1000px;
-  margin: 0 200px;
 }
 
+main {
+  margin: 0 200px;
+}
 a {
   text-decoration: none;
 }
@@ -38,12 +40,13 @@ a {
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin-top: 80px;
+  position: relative;
 }
 
 .conteudo1__texto {
   background-color: #fff;
   text-align: end;
-  padding: 60px 40px;
+  padding: 55px 40px;
   display: grid;
   gap: 30px;
 }
@@ -62,6 +65,15 @@ a {
 }
 .conteudo1__imagem {
   max-width: 100%;
+}
+
+.conteudo1__elemento__grafico {
+  border: 2px solid #ee2211;
+  width: 60px;
+  display: inline-block;
+  position: absolute;
+  top: 30px;
+  left: 445px;
 }
 
 .conteudo2 {
@@ -93,4 +105,11 @@ a {
 .conteudo2__grupo__texto {
   display: grid;
   gap: 15px;
+}
+
+.rodape {
+  margin-top: 80px;
+  background-color: #fff;
+  padding: 40px 0;
+  text-align: center;
 }
