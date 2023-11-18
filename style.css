@@ -69,11 +69,11 @@ a {
 
 .conteudo1__elemento__grafico {
   border: 2px solid #ee2211;
-  width: 60px;
+  width: 5%;
   display: inline-block;
   position: absolute;
-  top: 30px;
-  left: 445px;
+  top: 8%;
+  left: 47.5%;
 }
 
 .conteudo2 {
