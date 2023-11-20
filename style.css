@@ -27,6 +27,7 @@ a {
   gap: 20px;
   justify-content: center;
   margin-top: 50px;
+  flex-wrap: wrap;
 }
 
 .navegacao {
@@ -63,6 +64,7 @@ a {
   justify-self: end;
   align-self: center;
 }
+
 .conteudo1__imagem {
   max-width: 100%;
 }
