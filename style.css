@@ -111,29 +111,29 @@ a {
   text-transform: uppercase;
 }
 
-.conteudo2__grupos {
+.conteudo2__vantagens {
   display: grid;
   gap: 20px;
   padding: 80px 60px;
   background-color: #fff;
 }
 
-.conteudo2__grupos .conteudo2__grupo:nth-child(odd) {
+.conteudo2__vantagens .vantagens__grupo:nth-child(odd) {
   background-color: #f7f7f7;
 }
 
-.conteudo2__grupo {
+.vantagens__grupo {
   display: grid;
   grid-template-columns: auto auto;
   gap: 15px;
   padding: 5px 10px;
 }
 
-.conteudo2__grupo:hover {
+.vantagens__grupo:hover {
   border-left: 3px solid #ee2211;
 }
 
-.conteudo2__grupo__texto {
+.grupo__texto {
   display: grid;
   gap: 15px;
 }
