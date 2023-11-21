@@ -38,6 +38,7 @@ a {
   text-transform: uppercase;
   border-radius: 4px;
   color: #000;
+  border: 3px solid #f7f7f7; /*problema visual do hover, solução: criar borda invisível*/
 }
 
 .navegacao:hover {
@@ -127,10 +128,11 @@ a {
   grid-template-columns: auto auto;
   gap: 15px;
   padding: 5px 10px;
+  border-left: 4px solid #fff;
 }
 
 .vantagens__grupo:hover {
-  border-left: 3px solid #ee2211;
+  border-left: 4px solid #ee2211;
 }
 
 .grupo__texto {
