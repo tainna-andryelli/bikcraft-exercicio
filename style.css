@@ -41,7 +41,7 @@ a {
 }
 
 .navegacao:hover {
-  border: 1.5px solid #ee2211;
+  border: 3px solid #ee2211;
 }
 
 .conteudo1 {
@@ -84,11 +84,12 @@ a {
 .conteudo1__titulo::before {
   content: "";
   display: block;
-  width: 80px;
+  width: 60px;
   border: 2px solid #ee2211;
   position: relative;
-  left: 100%;
-  top: -15px;
+  left: 102%;
+  top: -30px;
+  border-radius: 1px;
 }
 
 .conteudo2 {
@@ -129,7 +130,7 @@ a {
 }
 
 .conteudo2__grupo:hover {
-  border-left: 1.5px solid #ee2211;
+  border-left: 3px solid #ee2211;
 }
 
 .conteudo2__grupo__texto {
