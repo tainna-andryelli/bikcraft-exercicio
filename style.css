@@ -11,6 +11,7 @@ body {
 
 a {
   text-decoration: none;
+  display: inline-block;
 }
 
 .imagem__logo {
@@ -209,7 +210,7 @@ a {
   }
 
   .conteudo2__vantagens {
-    padding: 60px 40px;
+    padding: 40px;
   }
 }
 
@@ -233,8 +234,9 @@ a {
   }
 
   .conteudo1__titulo::before {
-    width: 0;
-    border: 0;
+    /* width: 0;
+    border: 0; */
+    display: none; /*remove elemento do layout*/
   }
 
   .conteudo1__texto {
@@ -246,6 +248,12 @@ a {
   }
 
   .conteudo2__vantagens {
-    padding: 40px 20px;
+    padding: 20px;
+  }
+}
+
+@media (max-width: 400px) {
+  .subtitulo {
+    font-size: 2rem;
   }
 }
