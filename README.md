@@ -1,6 +1,7 @@
 # 🚲 Bikcraft - Exercício 🚲
 
 - Colocando em prática **fundamentos de HTML e CSS** num exercício do curso 'HTML e CSS para Iniciantes' da plataforma Origamid.
+- Você pode acessar o conteúdo pelo link: https://bikcraft-exercicio.vercel.app/
 
 ## 📋 Descrição
 
@@ -17,6 +18,7 @@
 - CSS
 - Flexbox e Grid
 - Visual Studio Code
+- Responsividade
 
 ## 👩🏼‍💻 Desenvolvido por:
 
