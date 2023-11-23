@@ -225,6 +225,7 @@ a {
 
   .conteudo1__imagem {
     grid-row: 1;
+    height: 300px;
   }
 
   .conteudo1__titulo::before {
