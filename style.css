@@ -2,11 +2,20 @@
   margin: 0;
 }
 
+:root {
+  --fundo-primario: #f7f7f7;
+  --fundo-secundario: #ffffff;
+  --texto: #000000;
+  --subtitulo: #c6c6c6;
+  --botao: #ee2211;
+  --botao-hover: #900;
+}
+
 body {
-  background-color: #f7f7f7;
+  background-color: var(--fundo-primario);
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1.25rem;
-  color: black;
+  color: var(--texto);
 }
 
 a {
@@ -31,15 +40,15 @@ a {
 
 .navegacao {
   padding: 15px 30px;
-  background-color: #fff;
+  background-color: var(--fundo-secundario);
   text-transform: uppercase;
   border-radius: 4px;
-  color: #000;
-  border: 3px solid #f7f7f7; /*problema visual do hover, solução: criar borda invisível*/
+  color: var(--texto);
+  border: 3px solid var(--fundo-primario); /*problema visual do hover, solução: criar borda invisível*/
 }
 
 .navegacao:hover {
-  border: 3px solid #ee2211;
+  border: 3px solid var(--botao);
 }
 
 .conteudo {
@@ -55,7 +64,7 @@ a {
 }
 
 .conteudo1__texto {
-  background-color: #fff;
+  background-color: var(--fundo-secundario);
   text-align: end;
   padding: 55px 40px;
   display: grid;
@@ -68,16 +77,16 @@ a {
 }
 
 .conteudo1__botao {
-  color: #fff;
+  color: var(--fundo-secundario);
   padding: 15px 30px;
-  background-color: #ee2211;
+  background-color: var(--botao);
   border-radius: 4px;
   justify-self: end;
   align-self: center;
 }
 
 .conteudo1__botao:hover {
-  background-color: #900;
+  background-color: var(--botao-hover);
   transition: 0.3s;
 }
 
@@ -93,7 +102,7 @@ a {
   content: "";
   display: block;
   width: 60px;
-  border: 2px solid #ee2211;
+  border: 2px solid var(--botao);
   position: relative;
   left: 102%;
   top: -25%;
@@ -112,7 +121,7 @@ a {
 
 .subtitulo {
   background-position: center;
-  color: #c6c6c6;
+  color: var(--subtitulo);
   font-size: 4rem;
   text-align: right;
   margin-right: 40px;
@@ -123,11 +132,11 @@ a {
   display: grid;
   gap: 20px;
   padding: 80px 60px;
-  background-color: #fff;
+  background-color: var(--fundo-secundario);
 }
 
 .conteudo2__vantagens .vantagens__grupo:nth-child(odd) {
-  background-color: #f7f7f7;
+  background-color: var(--fundo-primario);
 }
 
 .vantagens__grupo {
@@ -135,11 +144,11 @@ a {
   grid-template-columns: auto auto;
   gap: 15px;
   padding: 5px 10px;
-  border-left: 4px solid #fff;
+  border-left: 4px solid var(--fundo-secundario);
 }
 
 .vantagens__grupo:hover {
-  border-left: 4px solid #ee2211;
+  border-left: 4px solid var(--botao);
 }
 
 .grupo__texto {
@@ -149,7 +158,7 @@ a {
 
 .rodape {
   margin-top: 80px;
-  background-color: #fff;
+  background-color: var(--fundo-secundario);
   padding: 40px 0;
   text-align: center;
 }
@@ -192,11 +201,11 @@ a {
 
   .navegacao {
     padding: 10px 20px;
-    border: 2px solid #f7f7f7;
+    border: 2px solid var(--fundo-primario);
   }
 
   .navegacao:hover {
-    border: 2px solid #ee2211;
+    border: 2px solid var(--botao);
   }
 
   .conteudo1__titulo::before {
