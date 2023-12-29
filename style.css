@@ -6,13 +6,13 @@
   --fundo-primario: #e0e0e0;
   --fundo-secundario: #ffffff;
   --texto: #000000;
-  --subtitulo: #c6c6c6;
+  --subtitulo: #8f8f8f;
   --botao: #ee2211;
   --botao-hover: #900;
   --onda: url("./images/onda-clara.svg");
 }
 
-/* @media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: dark) {
   :root {
     --fundo-primario: #222222;
     --fundo-secundario: #111111;
@@ -22,7 +22,7 @@
     --botao-hover: #900;
     --onda: url("./images/onda-escura.svg");
   }
-} */
+}
 
 body {
   background-color: var(--fundo-primario);
