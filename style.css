@@ -9,6 +9,19 @@
   --subtitulo: #c6c6c6;
   --botao: #ee2211;
   --botao-hover: #900;
+  --onda: url("./images/onda-clara.svg");
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --fundo-primario: #222222;
+    --fundo-secundario: #111111;
+    --texto: #ffffff;
+    --subtitulo: #c6c6c6;
+    --botao: #ee2211;
+    --botao-hover: #900;
+    --onda: url("./images/onda-escura.svg");
+  }
 }
 
 body {
@@ -77,7 +90,7 @@ a {
 }
 
 .conteudo1__botao {
-  color: var(--fundo-secundario);
+  color: #ffffff;
   padding: 15px 30px;
   background-color: var(--botao);
   border-radius: 4px;
@@ -116,7 +129,7 @@ a {
 
 .conteudo2__subtitulo {
   align-self: center;
-  background-image: url("images/onda.svg");
+  background-image: var(--onda);
 }
 
 .subtitulo {
